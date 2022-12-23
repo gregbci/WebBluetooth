@@ -4,14 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "package": "electron-builder --publish never"
   },
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "start": "electron ."
-  },
   "devDependencies": {
-    "electron": "^21.2.2"
+    "electron": "*",
+    "electron-builder": "*"
   }
 }
